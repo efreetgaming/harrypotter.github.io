@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--divinectorweb.com-->
+<head>
+	<meta charset="UTF-8">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+    <link rel="icon" href="./gry/gry.png" type="image/x-icon">
+    <title>Wizarding World | Gallery</title>
+
+    <style>
+        .header {
+            text-align: center;
+            font-family: 'Harry Potter';
+            font-size: 75px;
+            color: aliceblue;
+            margin-top: 50px;
+        }
+
+
+        
+        body{
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        
+        }
+        .carousel{
+            height: 740px; 
+            perspective: 200px;
+              
+            
+        }
+        .carousel .carousel-item {
+            width: 650px;
+            background: transparent;
+            padding: 0px;
+            height: auto;
+            text-align: center;
+            
+        }
+        .img-area {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            overflow: hidden;
+            
+        }
+                .img-area img{
+                    width: 100%;
+                    height: 20vh;
+                }
+    </style>
+</head>
+<body>
+    <div class="carousel">
+        <h1 class="header">Harry Potter Gallery</h1>
+        <a class="carousel-item" href="#one!"><img src="https://wallpapers.com/images/hd/harry-potter-burning-hogwarts-school-ywmmrzibetrz11r7.webp"></a>
+        <a class="carousel-item" href="#two!"><img src="https://wallpapers.com/images/high/harry-potter-hogwarts-sunset-poster-art-5rssjskb830c7wal.webp"></a>
+        <a class="carousel-item" href="#three!"><img src="https://wallpapers.com/images/hd/harry-potter-characters-using-magic-6nhsunyyq4kib7u8.webp"></a>
+        <a class="carousel-item" href="#four!"><img src="https://wallpapers.com/images/hd/harry-potter-dobby-is-free-5bsiycd19wcx3yar.webp"></a>
+        <a class="carousel-item" href="#five!"><img src="https://wallpapers.com/images/hd/harry-potter-goblet-of-fire-m4gs9ihnexj4oauc.webp"></a>
+        <a class="carousel-item" href="#six!"><img src="https://wallpapers.com/images/hd/harry-potter-deathly-hallows-qivqxxln1k4681pb.webp"></a>
+        <a class="carousel-item" href="#seven!"><img src="https://wallpapers.com/images/high/harry-potter-dumbledore-s-army-6v98eidnawa0wu2f.webp"></a>
+        <a class="carousel-item" href="#eight!"><img src="https://wallpapers.com/images/high/harry-potter-fan-art-hxjiq7ykf28pormv.webp"></a>
+        <a class="carousel-item" href="#eight!"><img src="https://wallpapers.com/images/hd/harry-potter-hogwarts-school-of-witchcraft-and-wizardry-wp75jrws8eocfkeb.webp"></a>
+        <a class="carousel-item" href="#eight!"><img src="https://wallpapers.com/images/high/harry-potter-glowing-stag-patronus-s1oebg9fkdiwur6p.webp"></a>
+        <a class="carousel-item" href="#eight!"><img src="https://wallpapers.com/images/high/harry-potter-dobby-elf-art-zcp6c4skrgdp1ei1.webp"></a>
+      </div>
+    </div>
+    
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+	</script> 
+	<script>
+	       
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+      
+	</script>
+
+
+</body>
+</html>

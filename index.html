@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--     Rel Icon -->
+    <link rel="shortcut icon" href="./img/gry.png">
+    <title>Wizarding World | Home</title>
+     <!--     CSS File  -->
+    <link rel="stylesheet" href="css/materialize.css">
+    <!--     Material Icons CDN  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--     Google Fonts CDN  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+       <!--         Author  -->
+    <meta name="author" content="Wizarding World">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="./gry/gry.png" type="image/x-icon">
+    
+    
+
+    <style>
+        body{
+            font-family: 'Times New Roman';
+            background-color: black;
+        }
+
+    
+        .slider .indicators .indicator-item.active{
+            background-color: white;
+        }
+        nav a{
+            color: white;
+        }
+    
+    .carousel{
+        height: 600px; 
+        perspective: 250px;    
+        
+    }
+    .carousel .carousel-item {
+        width: 450px;
+        background: #fff;
+        padding: 50px;
+        height: auto;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .img-area {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 50%;
+        border: inset 4px black;
+    }
+            .img-area img{
+                width: 100%;
+                height: 20vh;
+            }
+            .testi p {
+        color: #262626;
+        font-size: 15px;
+        line-height: 1.9;
+    }
+            .testi h4 {
+        font-size: 20px;
+        margin: 0;
+        color: #000;
+    }
+            .testi h5 {
+        font-size: 20px;
+        letter-spacing: 5px;
+        margin: 7px 0;
+    }
+
+    
+
+    
+    </style>
+</head>
+<body>
+
+            
+
+    <header id="top" class="scrollspy">
+        <nav class="black nav-wrapper " style="position: fixed; z-index: 5;">
+            <div class="container">
+                <a href="#mobilemenu" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+                </a>
+                <a href="#">
+                    <img src="./img/mobilelogo.png" alt="" class="responsive-img brand-logo hide-on-med-and-down" style="width: 17%">
+                </a>
+                <a href="#">
+                    <img src="./img/mobilelogo.png" alt="" class="responsive-img brand-logo hide-on-large-only" style="width: 40%;">
+                </a>
+                <ul class="hide-on-med-and-down">
+                    <li class="right">
+                        <a href="/torch/LR.html" class="amber-text accent-4">HORCRUX</a>
+                    </li>
+
+                    <li class="right">
+                        <a href="/torch/pureblooded.html" class="amber-text accent-4">PUREBLOODED</a>
+                    </li>
+                    <li class="right">
+                        <a href="/torch/gallery.html" class="amber-text accent-4">MUDBLOOD</a>
+                    </li>
+                    <li class="right">
+                        <a href="/torch/index1.html" class="amber-text accent-4">HOUSES</a>
+                    </li>
+                
+                    <li class="right">
+                        <a href="/torch/muggle.html" class="amber-text accent-4">MUGGLE</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <ul id="mobilemenu" class="sidenav right hide-on-large-only black">
+            <a href="#">
+                <img src="./img/mobilelogo.png" alt="" class="responsive-img brand-logo" style="width: 70% center;">
+            </a>
+            <li>
+                <a href="/torch/muggle.html" class="waves-effect waves-light white-text">MUGGLE</a>
+            </li>
+            <li>
+                <a href="/torch/index1.html" class="waves-effect waves-light white-text">HOUSES</a>
+            </li>
+            <li>
+                <a href="/torch/gallery.html" class="waves-effect waves-light white-text">MUDBLOOD</a>
+            </li>
+            <li>
+                <a href="/torch/pureblooded.html" class="waves-effect waves-light white-text">PUREBLOODED</a>
+            </li>
+            <li>
+                <a href="/torch/LR.html" class="waves-effect waves-light white-text">HORCRUX</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <!-- slides -->
+        <div class="slider hide-on-small-and-down desktop">
+            <ul class="slides">
+                <li>
+                    <img src="./img/cat.jpg" alt="" class="responsive-img">
+                </li>
+                <li>
+                    <img src="./img/hogwarts-castle.avif" alt="" class="responsive-img">
+                </li>
+                <li>
+                    <img src="./img/22921.jpg" alt="" class="responsive-img">
+                </li>
+                <li>
+                    <img src="./img/img4.jpg" alt="" class="responsive-img">
+                </li>
+                <li>
+                    <img src="./img/img5.jpg" alt="" class="responsive-img">
+                </li>
+            </ul>
+        </div>
+        <div class="slider hide-on-med-and-up mobile">
+            <ul class="slides">
+                <li>
+                    <img src="./img/cat.jpg" alt="" class="responsive-img">
+                </li>
+                <li>
+                    <img src="./img/hogwarts-castle.avif" alt="" class="responsive-img">
+                </li>
+                <li>
+                    <img src="./img/22921.jpg" alt="" class="responsive-img">
+                </li>
+                <li>
+                    <img src="./img/img4.jpg" alt="" class="responsive-img">
+                </li>
+                <li>
+                    <img src="./img/img5.jpg" alt="" class="responsive-img">
+                </li>
+            </ul>
+        </div>
+        <!-- collapsible  -->
+        <div class="container">
+            <h4 class="orange-text accent-3">Discover your Patronus
+                Witch and Wizard!</h4>
+            <p class="white-text">
+                "Good evening, ladies and gentlemen, ghosts and — most particularly, — guests. I have great pleasure in welcoming you all to Hogwarts. I hope and trust that your stay here will be both comfortable and enjoyable. The tournament will be officially opened at the end of the feast. I now invite you all to eat, drink, and make yourselves at home!"
+                — Albus Dumbledore </p>
+              
+            <p class="white-text">
+                Join us in heading Back to Hogwarts 1st September is a magical day in the wizarding world, and we’re bringing the celebrations to you, wherever you are. 
+                No Floo Powder needed!</p>
+
+            <div class="row">
+                <div class="divider"></div>
+                <div class="col s12 m4 l4">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header black accent-3 white-text">
+                                <i class="material-icons">label</i>
+                                <span>HARRY POTTER</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <img src="./img/finalharry.jpg" alt="" class="responsive-img">
+                                <p class="white-text">"I’ll be in my bedroom, making no noise and pretending I’m not there."</p>
+                                <div class=""><a href="#" class="white-text">
+                                
+                                </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 m4 l4">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header black accent-3 white-text">
+                                <i class="material-icons">label</i>
+                                <span>HERMIONE GRANGER</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <img src="./img/hermione.jpg" alt="" class="responsive-img">
+                                <p class="white-text">“Stop, Stop, Stop! You’re Going To Take Someone’s Eye Out. Besides, You’re Saying It Wrong. It’s Leviosa, Not Leviosar!”</p>
+                                <div class=""><a href="#" class="white-text">
+                                    
+                                </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 m4 l4">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header black accent-3 white-text">
+                                <i class="material-icons">label</i>
+                                <span>RON WEASLEY</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <img src="./img/ron.jpg" alt="" class="responsive-img">
+                                <p class="white-text">"You're A Little Scary Sometimes, You Know That? Brilliant... But Scary."</p>
+                                <div class=""><a href="#" class="white-text">
+                                    
+                                </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </div>
+        
+
+
+
+        <div class="container scrollspy" id="comments">
+            <h4 class="orange-text accent-3">Characters' Famous Lines</h4>
+            <ul class="collection">
+                <a class="collection-item avatar"><i class="circle material-icons black">person</i>
+                    <p class="span-title black-text text-darken-3" style="font-weight: bold;">Harry Potter</p>
+                    <em class="grey-text">"Expecto Patronum!"</em>
+                    <div controls class="right">
+                        <audio controls>
+                        <source src="/torch/expecto.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </a>
+                <a class="collection-item avatar">
+                    <i class="circle material-icons black">person</i>
+                    <p class="span-title black-text text-darken-3" style="font-weight: bold;">Rubeus Hagrid</p>
+                    <em class="grey-text">"You're a wizard, Harry."</em>
+                    <audio controls class="right">
+                        <source src="/torch/voice2.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </a>
+                <a class="collection-item avatar"><i class="circle material-icons black">person</i>
+                    <p class="span-title black-text text-darken-3" style="font-weight: bold;">Albus Dumbledore</p>
+                    <em class="grey-text">“Do not pity the dead, Harry. Pity the living, and, above all those who live without love.”</em>
+                    <audio controls class="right" >
+                        <source src="/torch/voice3.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </a>
+                <a class="collection-item avatar"><i class="circle material-icons black">person</i>
+                    <p class="span-title black-text text-darken-3" style="font-weight: bold;">Severus Snape</p>
+                    <em class="grey-text">"There will be no foolish wand-waving or silly incantations in this class. As such, I don't expect many of you to appreciate the subtle science and exact art that is potion-making. However, for those select few who possess the predisposition, I can teach you how to bewitch the mind and ensnare the senses. I can tell you how to bottle fame, brew glory, and even put a stopper in death. Then again, maybe some of you have come to Hogwarts in possession of abilities so formidable that you feel confident enough to not pay attention!" <br> "Mr. Potter, our new celebrity" </em>
+                    <audio controls class="right" >
+                        <source src="/torch/voice4.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </a>
+                <a class="collection-item avatar"><i class="circle material-icons black">person</i>
+                    <p class="span-title black-text text-darken-3" style="font-weight: bold;">Hermione Granger
+
+                    </p>
+                    <em class="grey-text col s6 m4 l4">“Now if you two don’t mind, I’m going to bed before either of you come up with another clever idea to get us killed - or worse, expelled.”</em>
+                    <audio controls class="right">
+                        <source src="/torch/voice5.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </a>
+                <a class="collection-item avatar"><i class="circle material-icons black">person</i>
+                    <p class="span-title black-text text-darken-3" style="font-weight: bold;">Minerva McGonagall</p>
+                    <em class="grey-text">"I've always wanted to use that spell." </em>
+                    <audio controls class="right">
+                        <source src="/torch/voice6.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </a>
+
+                <a class="collection-item avatar"><i class="circle material-icons black">person</i>
+                    <p class="span-title black-text text-darken-3" style="font-weight: bold;">Albus Dumbledore</p>
+                    <em class="grey-text">
+                        “Happiness can be found, even in the darkest of times, if one only remembers to turn on the light." </em>
+                        <audio controls class="right">
+                            <source src="/torch/happiness.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                </a>
+
+    
+
+                <a class="collection-item avatar"><i class="circle material-icons black">person</i>
+                    <p class="span-title black-text text-darken-3" style="font-weight: bold;">Dobby</p>
+                    <em class="grey-text">"Master has given Dobby a sock. Master has presented Dobby with clothes. Dobby is free." </em>
+                    <audio controls class="right">
+                        <source src="/torch/letter (1).mp4" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </a>
+            </ul>
+        </div>
+        
+
+
+        <div class="parallax-container hide-on-small-and-down" >
+            <div class="parallax">
+                <img src="./img/peakpx.jpg" alt="" class="responsive-img">
+            </div>
+        </div>
+        <!-- cake image on mobile view -->
+        <div class="hide-on-med-and-up scrollspy">
+            <img src="./img/peakpx.jpg" class="responsive-img" alt="">
+        </div>
+     
+        <div class="container scrollspy" id="cakes">
+            <h4 class="orange-text accent-3">Powerful Objects from Harry Potter</h4>
+            <p class="white-text">In the land of magic there’s an array of power available and objects which harness this energy. But what makes an object extremely powerful? It may be the fact that these objects can make the impossible, suddenly very possible. If you end up in possession of one of these objects... you would become a very powerful Witch or Wizard.</p>
+            
+            <!--Carousel-->
+
+            <div class="carousel black">
+                <a class="carousel-item" href="#">
+                    <div class="testi">
+                        <div class="img-area">
+                            <img src="./img/elderwand.jpg">
+                        </div>
+                        <p>"This one is a no brainer! Surely you all know the story of The Deathly Hallows. Owning one of the three is said to give you power over death... for at least a while.
+
+                        It can create a level of magic that is impossible for other wands. The true master of the wand ultimately becomes the most powerful Wizard. But it is also extremely dangerous, with a long-blooded history. Hence why Harry decided to not keep it in the end."</p>
+                        <h5 class="span-title black-text text-darken-3" style="font-weight: bold;">The Elder Wand</h5> 
+                    </div>
+                </a>
+                <a class="carousel-item" href="#">
+                    <div class="testi">
+                        <div class="img-area">
+                            <img src="./img/timeturner.jpg">
+                        </div>
+                        <p>"What’s more powerful than an object that can transport you back into the past? The possibilities for devastation along the timelines is very real, so the ones used in the series were regulated and didn’t allow for long periods of traveling back in the past. Although, true Time Turners created by Theodore Knott, could allow the user to stay in the past for as long as they wanted. Some might say, this is playing with fire."</p>
+                        <h5 class="span-title black-text text-darken-3" style="font-weight: bold;">Time Turners</h5> 
+                    </div>
+                </a>
+                <a class="carousel-item" href="#">
+                    <div class="testi">
+                        <div class="img-area">
+                            <img src="./img/cloak.jpg">
+                        </div>
+                        <p>"The Second most powerful object of The Deathly Hallows, this object can quite literally hide ANYTHING under its covering and maintain invisibility from enchantments. Hiding yourself from people who may want to find you, or even hiding you from death itself!
+
+                        In the Wizarding world, this could make you functionally immortal."</p>
+                        <h5 class="span-title black-text text-darken-3" style="font-weight: bold;">The Invisibility Cloak</h5>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#">
+                    <div class="testi">
+                        <div class="img-area">
+                            <img src="./img/map.jpg">
+                        </div>
+                        <p>"Wish to get away with anything you please? Then you’d want this magical map that makes this possible. Exposing secret passages and every corner of the castle, while knowing where everybody is at any given time – is definitely a powerful advantage."</p>
+                        
+                        <h5 class="span-title black-text text-darken-3" style="font-weight: bold;">Marauders Map</h5>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#">
+                    <div class="testi">
+                        <div class="img-area">
+                            <img src="./img/diadem.jpg">
+                        </div>
+                        <p>"The gorgeous headpiece which was infused with dark magic. Yet another Horcrux created by Voldemort. Apart from the Horcrux ordeal, the Diadem was the last known relic which once belonged to Rowena Ravenclaw (the founder of Ravenclaw House). Rowena enchanted the Diadem herself, to improve the wearers focus and intelligence."</p>
+                        <h5 class="span-title black-text text-darken-3" style="font-weight: bold;">Ravenclaw Diadem </h5>
+                    </div>
+                </a>
+
+                <a class="carousel-item" href="#">
+                    <div class="testi">
+                        <div class="img-area">
+                            <img src="./img/stoneee.jpg">
+                        </div>
+                        <p>"Where it all began, one of the first most powerful objects introduced into the series. The stone has two primary powers - the ability to turn any base metal into pure gold, and to produce the Elixir of Life, which can keep the drinker alive forever.
+
+                        Only one man has successfully created the substance. Nicholas Flamel who used it to live a very long life, only to destroy it to keep it from Voldemort’s grasp. If another Witch or Wizard were to learn the secret recipe and create it again.. well they would be extremely powerful!"</p>
+                        <h5 class="span-title black-text text-darken-3" style="font-weight: bold;">The Sorcerer’s Stone (Philosophers)  </h5>
+                    </div>
+                </a>
+
+                <a class="carousel-item" href="#">
+                    <div class="testi">
+                        <div class="img-area">
+                            <img src="./img/locketry.jpg">
+                        </div>
+                        <p>"Horcrux’s are some of the most evil and darkest magic used in the Wizarding World. A staple, for He-Who-Shall-Not-Be-Named. A Horcrux is a vessel used to encapsulate part of a Wizard’s soul, making them one step closer to immortality. However, creating a Horcrux requires a murder to do so, and rips the soul into pieces – damaging the wizard.
+
+                        Doing this numerous times (as Voldemort did) is an almost sure way to defeat death and that is the most powerful magic of all. It comes with a dark price."</p>
+                        <h5 class="span-title black-text text-darken-3" style="font-weight: bold;">Horcrux Locket</h5>
+                        
+                    </div>
+                </a>
+              
+           </div>
+
+        
+    
+        
+        <br>
+        <br>
+            
+        </div>
+        <!--Hp parallax -->
+        <div class="parallax-container hide-on-small-and-down">
+            <div class="parallax">
+                <img src="./img/harry-potter.jpg" alt="" class="responsive-img">
+            </div>
+        </div>
+        <!-- soup image on mobile view -->
+        <div class="hide-on-med-and-up">
+            <img src="./img/harry-potter.jpg" class="responsive-img" alt="" id="soups">
+        </div>
+        <!-- soup cards -->
+        <div class="container scrollspy" id="soups">
+            <h4 class="orange-text text-darken-4">Series</h4>
+            <p class="white-text">Harry Potter is a film series based on the eponymous novels by British author J. K. Rowling. The series is produced and distributed by Warner Bros. Pictures and consists of eight fantasy films, beginning with Harry Potter and the Philosopher's Stone (2001) and culminating with Harry Potter and the Deathly Hallows – Part 2 (2011).A spin-off prequel series, planned to consist of five films, started with Fantastic Beasts and Where to Find Them (2016), marking the beginning of the Wizarding World shared media franchise.</p>
+            <!-- soups card -->
+            <div class="row">
+                <div class="col s6 m4 l4">
+                    <ul class="card hoverable">
+                        <div class="card-image">
+                            <img src="./img/hp1.jpg" alt="">
+                            <div class="right">
+                                
+                            </div>
+                        </div>
+                        
+                    </ul>
+                </div>
+                
+                <div class="col s6 m4 l4">
+                    <ul class="card hoverable">
+                        <div class="card-image">
+                            <img src="./img/hp2.jpg" alt="">
+                            <div class="right">
+                                
+                            </div>
+                        </div>
+                        
+                    </ul>
+                </div>
+
+                <div class="col s6 m4 l4">
+                    <ul class="card hoverable">
+                        <div class="card-image">
+                            <img src="./img/hp3.jpg" alt="">
+                            <div class="right">
+                                
+                            </div>
+                        </div>
+                        
+                    </ul>
+                </div>
+
+                <div class="col s6 m4 l4">
+                    <ul class="card hoverable">
+                        <div class="card-image">
+                            <img src="./img/hp4.jpg" alt="">
+                            <div class="right">
+                                
+                            </div>
+                        </div>
+                        
+                    </ul>
+                </div>
+
+                <div class="col s6 m4 l4">
+                    <ul class="card hoverable">
+                        <div class="card-image">
+                            <img src="./img/hp5.jpg" alt="">
+                            <div class="right">
+                                
+                            </div>
+                        </div>
+                        
+                    </ul>
+                </div>
+
+                <div class="col s6 m4 l4">
+                    <ul class="card hoverable">
+                        <div class="card-image">
+                            <img src="./img/hp6.jpg" alt="">
+                            <div class="right">
+                                
+                            </div>
+                        </div>
+                        
+                    </ul>
+                </div>
+                <div class="col s6 m4 l4">
+                    <ul class="card hoverable">
+                        <div class="card-image">
+                            <img src="./img/hp7.jpg" alt="">
+                            <div class="right">
+                                
+                            </div>
+                        </div>
+                        
+                    </ul>
+                </div>
+
+                <div class="col s6 m4 l4">
+                    <ul class="card hoverable">
+                        <div class="card-image">
+                            <img src="./img/hp8.webp" alt="">
+                            <div class="right">
+                                
+                            </div>
+                        </div>
+                        
+                    </ul>
+                </div>
+        </div>
+    
+        
+        <!-- 2nd footer -->
+        <footer class="black" style="background-color: orange; padding: 15px;">
+            <div class="footer center">
+                <span class="white-text"> &copy; 2023 Wizarding World | Designed and Developed By <span style="font-weight: bold"><a href="" target="_blank" class="grey-text text-lighten-2">WIZARDRY AND WITCHCRAFT</a></span></span>
+            </div>
+        </footer>
+    </main>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems);
+    });
+</script>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/materialize.js"></script>
+<script>
+    $(document).ready(function(){
+    $('.slider.mobile').slider({
+        height: 400,
+        duration: 500,
+        interval:3000,
+    });
+    $('.slider.desktop').slider({
+        height: 550,
+        duration: 500,
+        interval:3000,
+    });
+    $('.collapsible').collapsible();
+    $('.parallax').parallax();
+    $('.sidenav').sidenav();
+    $('.scrollspy').scrollSpy();
+    });
+</script>
+
+
+<script>
+    $(document).ready(function(){
+      $('.carousel').carousel({
+              padding: 200
+      });
+      autoplay();
+      function autoplay() {
+          $('.carousel').carousel('next');
+          setTimeout(autoplay, 4500);
+      }
+    });
+  </script>
+
+  <script>
+    const audioElement = document.querySelector('audio');
+const playButton = document.querySelector('.collection-item.avatar .material-icons');
+
+audioElement.addEventListener('play', () => {
+    playButton.style.display = ''; // Hide play button when audio is playing
+});
+
+audioElement.addEventListener('pause', () => {
+    playButton.style.display = 'block'; // Show play button when audio is paused
+});
+  </script>
+</body>
+</html>
+
+
